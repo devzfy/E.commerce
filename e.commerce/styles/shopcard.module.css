@@ -1,0 +1,78 @@
+.shopcard_wrapper h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.image_block{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.shopcard_wrapper{
+    padding: 25px 20px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+}
+.rate{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 17px;
+}
+
+.shopcard_wrapper .rate span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #918888;
+}
+
+.shopcard_wrapper img{
+    object-fit: cover;
+}
+
+.price{
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative
+}
+.price::before{
+    position: absolute;
+    top: -20px;
+    content: '';
+    width: 174px;
+    height: 1px;
+    background-color: #C2BCBC;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.shopcard_wrapper .price span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.price button{
+    width: 48px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #31645A !important;
+    border-radius: 3px;
+}
+

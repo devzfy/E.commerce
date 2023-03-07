@@ -1,0 +1,50 @@
+.footer{
+    background: #31645A;
+    padding: 40px 0;
+}
+
+.inner{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.block span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.block ul li{
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+
+.block ul li a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.block .social{
+    gap: 26px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.block .pay ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

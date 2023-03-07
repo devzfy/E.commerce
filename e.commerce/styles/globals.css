@@ -1,8 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+@font-face {
+    font-family: "Inter";
+    src: url('../styles/Inter/Inter-VariableFont_slnt,wght.ttf');
+}
 
 *{
+    font-family: "Inter";
     box-sizing: border-box;
 }
 
@@ -11,4 +14,13 @@
     margin: 0 auto;
     width: 100%;
     max-width: 1330px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p, ul{
+    margin: 0;
+    padding: 0;
 }
